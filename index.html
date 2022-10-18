@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="control-buttons">
+        <span>start game</span>
+    </div>
+    <div class="info-container">
+        <div class="name">
+            Hello: <span></span>
+        </div>
+        <div class="tries">
+            Wrong Tries: <span>0</span>
+        </div>
+    </div>
+    <div class="memory-game-blocks">
+        <div class="game-block" data-technology="angular">
+            <!-- <div class="game-block is-flipped" data-technology="angular"> -->
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="images/work-01.jpg" alt="" height="200px" width="250px">
+            </div>
+        </div>
+        <div class="game-block" data-technology="angular">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="images/work-01.jpg" alt="" height="200px" width="250px">
+            </div>
+        </div>
+        <div class="game-block" data-technology="vuejs">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="images/work-02.jpg" alt="" height="200px" width="250px">
+            </div>
+        </div>
+        <div class="game-block" data-technology="vuejs">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="images/work-02.jpg" alt="" height="200px" width="250px">
+            </div>
+        </div>
+        <div class="game-block" data-technology="css3">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="images/work-03.jpg" alt="" height="200px" width="250px">
+            </div>
+        </div>
+        <div class="game-block" data-technology="css3">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="images/work-03.jpg" alt="" height="200px" width="250px">
+            </div>
+        </div>
+        <div class="game-block" data-technology="github">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="images/work-04.jpg" alt="" height="200px" width="250px">
+            </div>
+        </div>
+        <div class="game-block" data-technology="github">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="images/work-04.jpg" alt="" height="200px" width="250px">
+            </div>
+        </div>
+        <div class="game-block" data-technology="gulpjs">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="images/work-05.jpg" alt="" height="200px" width="250px">
+            </div>
+        </div>
+        <div class="game-block" data-technology="gulpjs">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="images/work-05.jpg" alt="" height="200px" width="250px">
+            </div>
+        </div>
+        <div class="game-block" data-technology="html5">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="images/work-06.jpg" alt="" height="200px" width="250px">
+            </div>
+        </div>
+        <div class="game-block" data-technology="html5">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="images/work-06.jpg" alt="" height="200px" width="250px">
+            </div>
+        </div>
+        <div class="game-block" data-technology="jest">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="images/work-07.jpg" alt="" height="200px" width="250px">
+            </div>
+        </div>
+        <div class="game-block" data-technology="jest">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="images/work-07.jpg" alt="" height="200px" width="250px">
+            </div>
+        </div>
+        <div class="game-block" data-technology="mongodb">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="images/work-08.jpg" alt="" height="200px" width="250px">
+            </div>
+        </div>
+        <div class="game-block" data-technology="mongodb">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="images/work-08.jpg" alt="" height="200px" width="250px">
+            </div>
+        </div>
+        <div class="game-block" data-technology="puthon">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="images/blog-2.jpg" alt="" height="200px" width="250px">
+            </div>
+        </div>
+        <div class="game-block" data-technology="puthon">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="images/blog-2.jpg" alt="" height="200px" width="250px">
+            </div>
+        </div>
+        <div class="game-block" data-technology="react">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="images/blog-3.jpg" alt="" height="200px" width="250px">
+            </div>
+        </div>
+        <div class="game-block" data-technology="react">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="images/blog-3.jpg" alt="" height="200px" width="250px">
+            </div>
+        </div>
+    </div>
+    <audio id="success" src="success.mp3" preload="auto"></audio>
+    <audio id="fail" src="fail.mp3" preload="auto"></audio>
+    <script src="memory.js"></script>
+</body>
+
+</html>
